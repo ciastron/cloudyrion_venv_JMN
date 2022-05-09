@@ -10,8 +10,8 @@ Finally, the environment will be subject to a penetration testing analysis (foll
 
 Authors: 
 - Marco Brotto,
-- Jonas, and
-- Nuri.
+- Jonas Kirch, and
+- Nuri Yilmaz.
 
 ## Installation
 ## Network Diagram
