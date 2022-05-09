@@ -1,6 +1,6 @@
 # DAILY PROGRESS
 
-Author: Marco Brotto, Jonas, Nuri
+Authors: Marco, Jonas, Nuri
 
 ## 09/05/2022
 
