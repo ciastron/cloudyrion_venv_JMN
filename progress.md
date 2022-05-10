@@ -16,3 +16,12 @@ Next tasks:
 - A formal definition of a pipeline.
 - Continuing studying the sota (State of the Art) of AWS infrastructure, Kubernetis and Terraform.
 - Research and design a first sketch of the network diagram with EKS systems (AWS service to manage containers).
+
+## 10/05/2022
+@ciastron
+
+Marco's progress (to be deleted)
+
+@RuffyJK
+
+Jonas's progress (to be deleted)
