@@ -24,8 +24,6 @@ Next tasks:
 - Followed the course about AWS EKS. EKS is an AWS service that manages containers using Kubernetes.
 - Start thinking about how to design the network diagram with the EKS instances.
 
-Marco's progress (to be deleted)
-
 @RuffyJK
 
 - Started to install AWS Cli (Command Line Interface) on Mac. 
@@ -34,4 +32,5 @@ Marco's progress (to be deleted)
 - Redeployed Web Application for testing purposes on Cloudguru Sandbox (instead of http using https).
 - Started to watch the course about AWS EKS.
 
-Jonas's progress (to be deleted)
+@nuri4444
+- ...
