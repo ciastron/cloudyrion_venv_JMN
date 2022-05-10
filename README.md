@@ -15,6 +15,7 @@ Authors:
 
 ## Installation
 ## Network Diagram
+## Learning Outcomes
 ## Resources
 - [Juice Shop](https://github.com/juice-shop/juice-shop): vulnerable WebApp.
 - [VAMPI](https://github.com/erev0s/VAmPI): vulberable APIs.
