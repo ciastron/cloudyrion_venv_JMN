@@ -28,4 +28,10 @@ Marco's progress (to be deleted)
 
 @RuffyJK
 
+- Started to install AWS Cli (Command Line Interface) on Mac. 
+- Started to configurate CLI (Configurate Access Key, Secret Access Key, Default Region, Default Format).
+- Tried to deploy EC2 by using CLI. ---> Need more rights in IAM.
+- Redeployed Web Application for testing purposes on Cloudguru Sandbox (instead of http using https).
+- Started to watch the course about AWS EKS.
+
 Jonas's progress (to be deleted)
