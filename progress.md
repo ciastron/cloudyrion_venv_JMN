@@ -20,6 +20,10 @@ Next tasks:
 ## 10/05/2022
 @ciastron
 
+- Followed the CloudGuru course about "AWS Security Concepts". It introduces to some services used in AWS such as Cloudtrial, GuardDuty, Inspector.
+- Followed the course about AWS EKS. EKS is an AWS service that manages containers using Kubernetes.
+- Start thinking about how to design the network diagram with the EKS instances.
+
 Marco's progress (to be deleted)
 
 @RuffyJK
