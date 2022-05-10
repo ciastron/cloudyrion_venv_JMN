@@ -18,11 +18,15 @@ Next tasks:
 - Research and design a first sketch of the network diagram with EKS systems (AWS service to manage containers).
 
 ## 10/05/2022
+GROUP
+- Meeting with @lsokoli to discuss the network diagram and basic concepts on K8s and containers.
+
 @ciastron
 
 - Followed the CloudGuru course about "AWS Security Concepts". It introduces to some services used in AWS such as Cloudtrial, GuardDuty, Inspector.
 - Followed the course about AWS EKS. EKS is an AWS service that manages containers using Kubernetes.
 - Start thinking about how to design the network diagram with the EKS instances.
+- Intro to kebernetes with lab, set up 3 servers: 1 control plane and 2 nodes/workers.
 
 @RuffyJK
 
@@ -34,3 +38,8 @@ Next tasks:
 
 @nuri4444
 - ...
+
+Next tasks:
+- Set AWS account with Cloudyrion credentials.
+- Continue studyding the sota and doing labs on Kubernetes/EKS
+- Discuss about network diagram
