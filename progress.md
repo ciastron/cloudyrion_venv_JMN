@@ -37,7 +37,9 @@ GROUP
 - Started to watch the course about AWS EKS.
 
 @nuri4444
-- ...
+- Watched the EKS Basics course on Cloud Guru
+- Worked in the Lab of EKS Basics (AWS CLI, eksctl, kubectl)
+
 
 Next tasks:
 - Set AWS account with Cloudyrion credentials.
