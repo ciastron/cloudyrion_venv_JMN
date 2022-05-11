@@ -58,4 +58,5 @@ GROUP
 - Deployed a Cluster on AWS Sandbox with one master and 3 Nodes.
 - Deployed a Load Balancer and Nginx Image, Httpd. --> worked
 - Tried to deploy Juice Shop Web Application ---> Didnt work.
+
 @nuri4444
