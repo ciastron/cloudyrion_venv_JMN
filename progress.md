@@ -48,8 +48,11 @@ Next tasks:
 
 ## 11/05/2022
 GROUP
+- Working together in order to understand how to create PODS and Services using EKS.
 
 @ciastron
+ - Continue studying the sota of K8s and EKS (Elastic K8s Service): command line tools such as `kubectl` and `eksctl`.
+ - Deploy some services in K8s such as httpd and Nginx.
 
 @RuffyJK
 - Continued to follow the course about AWS EKS.
@@ -61,8 +64,7 @@ GROUP
 
 @nuri4444
 
-TODO: Ask Reza: should we have permission to create IAM user (for K8S admin user)
 
-The next steps:
-- Check permissions on AWS account
-- Deploy other dockers (try with Juice-Shop) on EKS or K8S service
+The next steps are:
+- Check permissions on AWS account in order to deploy EKS cluster. In particular, we need to check if we need permissions to create an IAM user that we will use later to deploy the cluster. Side note: 
+- Deploy other dockers (e.g., Juice-Shop) on a Kubernetes Cluster. Dig down about: is it a *port* problem? For instance, Juice-Shop run on port 3000. Another approch we could follow is to install the docker locally and then, in the yml file specifying to get that resource locally.
