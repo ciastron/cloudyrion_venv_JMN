@@ -51,6 +51,7 @@ GROUP
 - Working together in order to understand how to create PODS and Services using EKS.
 
 @ciastron
+ - Introduciton to K8s objects: PODS, DEPLOYMENT and SERVICE.
  - Continue studying the sota of K8s and EKS (Elastic K8s Service): command line tools such as `kubectl` and `eksctl`.
  - Deploy some services in K8s such as httpd and Nginx.
 
