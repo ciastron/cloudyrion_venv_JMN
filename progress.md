@@ -26,7 +26,7 @@ GROUP
 - Followed the CloudGuru course about "AWS Security Concepts". It introduces to some services used in AWS such as Cloudtrial, GuardDuty, Inspector.
 - Followed the course about AWS EKS. EKS is an AWS service that manages containers using Kubernetes.
 - Start thinking about how to design the network diagram with the EKS instances.
-- Intro to kebernetes with lab, set up 3 servers: 1 control plane and 2 nodes/workers.
+- Intro to kebernetes with lab, set up 3 servers: 1 control plane and 2 nodes/workers. Personal thoughts about this lab: not complex, a lot of configuration and dependencies/packages to install; it could be partially automated.
 
 @RuffyJK
 
