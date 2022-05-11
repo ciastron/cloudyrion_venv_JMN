@@ -52,5 +52,10 @@ GROUP
 @ciastron
 
 @RuffyJK
-
+- Continued to follow the course about AWS EKS.
+- Set up a new EC2 on Cloudguru Sandbox Lab.
+- Installed all the necessary tools for K8 (kubectl and eksctl)
+- Deployed a Cluster on AWS Sandbox with one master and 3 Nodes.
+- Deployed a Load Balancer and Nginx Image, Httpd. --> worked
+- Tried to deploy Juice Shop Web Application ---> Didnt work.
 @nuri4444
