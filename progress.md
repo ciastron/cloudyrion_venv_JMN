@@ -68,3 +68,6 @@ GROUP
 The next steps are:
 - Check permissions on AWS account in order to deploy EKS cluster. In particular, we need to check if we need permissions to create an IAM user that we will use later to deploy the cluster. Side note: 
 - Deploy other dockers (e.g., Juice-Shop) on a Kubernetes Cluster. Dig down about: is it a *port* problem? For instance, Juice-Shop run on port 3000. Another approch we could follow is to install the docker locally and then, in the yml file specifying to get that resource locally.
+
+
+## 12/05/2022
