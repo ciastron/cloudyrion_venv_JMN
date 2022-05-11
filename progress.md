@@ -60,3 +60,9 @@ GROUP
 - Tried to deploy Juice Shop Web Application ---> Didnt work.
 
 @nuri4444
+
+TODO: Ask Reza: should we have permission to create IAM user (for K8S admin user)
+
+The next steps:
+- Check permissions on AWS account
+- Deploy other dockers (try with Juice-Shop) on EKS or K8S service
