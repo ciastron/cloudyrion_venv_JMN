@@ -43,3 +43,12 @@ Next tasks:
 - Set AWS account with Cloudyrion credentials.
 - Continue studyding the sota and doing labs on Kubernetes/EKS
 - Discuss about network diagram
+
+## 11/05/2022
+GROUP
+
+@ciastron
+
+@RuffyJK
+
+@nuri4444
