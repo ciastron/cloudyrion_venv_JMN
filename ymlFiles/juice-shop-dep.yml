@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: juiceshop-dep
+  labels:
+    env: dev
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      env: dev
+  template:
+    metadata:
+      labels:
+        env: dev
+    spec:
+      containers:
+      - name: juiceshop
+        image: bkimminich/juice-shop
