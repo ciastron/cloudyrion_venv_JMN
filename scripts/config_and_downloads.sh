@@ -12,7 +12,8 @@ sudo ./aws/install --bin-dir /usr/bin --install-dir /usr/bin/aws-cli --update >>
 
 echo "[*] AWS version 2 installed"
 
-curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.16.8/2020-04-16/bin/linux/amd64/kubectl >> /dev/null
+curl -o kubectl https://s3.us-west-2.amazonaws.com/amazon-eks/1.22.6/2022-03-09/bin/linux/amd64/kubectl
+
 chmod +x ./kubectl
 mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$PATH:$HOME/bin >> /dev/null
 echo "[*] Kubectl installed"
