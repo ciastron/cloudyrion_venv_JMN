@@ -85,6 +85,10 @@ GROUP
 
 
 @RuffyJK
+- Started to follow a course on how to use and setup Terraform.
+- Further research on Kubernetes.
+- After receiving permissions on AWS, created a new EC2 and a Cluster with 3 Nodes.
+- Deployed the JuiceShop Web Application ( 3 replicas) with LoadBalancer service.
 
 @nuri4444
 
