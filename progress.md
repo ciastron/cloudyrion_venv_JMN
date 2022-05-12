@@ -74,3 +74,18 @@ The next steps are:
 
 
 ## 12/05/2022
+GROUP
+- Introduction to PenTest activity (meeting organised and conducted by Ulf).
+- Grant admin privileges on the AWS account (e.g., we can now create EKS cluster)
+
+@ciastron
+- Continue studying K8s.
+- Set up SSH connections amongs VM and host machine to easy deploy solutions in Linux
+- Create script (see scripts folder) to install the correct version of AWS, kubectl and eksctl
+
+
+@RuffyJK
+
+@nuri4444
+
+
