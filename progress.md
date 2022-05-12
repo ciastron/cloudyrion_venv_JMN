@@ -64,6 +64,8 @@ GROUP
 - Tried to deploy Juice Shop Web Application ---> Didnt work.
 
 @nuri4444
+- Finished the EKS Course on Cloud Guru
+- Started the Kubernetes Essentials Course
 
 
 The next steps are:
