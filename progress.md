@@ -80,8 +80,9 @@ GROUP
 
 @ciastron
 - Continue studying K8s.
-- Set up SSH connections amongs VM and host machine to easy deploy solutions in Linux
-- Create script (see scripts folder) to install the correct version of AWS, kubectl and eksctl
+- Set up SSH connections amongs VM and host machine to easy deploy solutions in Linux.
+- Create script (see scripts folder) to install the correct version of AWS, kubectl and eksctl.
+- Deploy Juice Shop application as a container in EKS. See ymlFiles folder to see the yml deployment and service K8s objects.
 
 
 @RuffyJK
