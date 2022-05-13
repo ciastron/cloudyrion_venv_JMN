@@ -91,15 +91,20 @@ GROUP
 - Further research on Kubernetes.
 - After receiving permissions on AWS, created a new EC2 and a Cluster with 3 Nodes.
 - Deployed the JuiceShop Web Application ( 3 replicas) with LoadBalancer service.
+- Destroyed the Cluster
 
 @nuri4444
-- Worked on the deployment of the JuiceShop
 
 ## 13/05/2022
 
+@ciastron
+
+@RuffyJK
+- Continued the course of Terraform Essential on Cloudguru.
+- Redployed the Cluster and JuiceShop Application and Services
+- Installed and used Cloudmapper for Network Diagram
+- Deploying the vulnerable API Vampi on my Kubernetes.
+
+@nuri444
 
 
-
-@nuri4444
-- Finally made the JuiceShop work with EKS
-- Research about the network diagram
