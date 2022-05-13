@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: juiceshop-svc
+  namespace: vulnerable-ns
+  labels:
+    app: something-to-be-deleted
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 3000
+  selector:
+    app: juiceshop-app
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vampi-svc
+  namespace: vulnerable-ns
+  labels:
+    env: something-to-be-deleted
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 5000
+  selector:
+    app: vampi-app
