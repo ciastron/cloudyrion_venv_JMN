@@ -24,7 +24,7 @@ To install and deploy the cluster, we followed these steps:
 - Create the cluster with `eksctl create cluster`. This operation might take up to 20 minutes.
 - Update the *kubeconfig* file with the command `aws eks update-kubeconfig --name devMarco --region us-east-1`.
 - Create a namespace to put all the future services and deployments: `kubectl create namespace vulnerable-ns`.
-- Create the services and deployments objects using `kubectl`. In particular, the create the service we have used the [svc.yml](README.md) file.
+- Create the services and deployments objects using `kubectl`. In particular, the create the service we have used the [svc.yml](ymlFiles/svc.yml) file.
 
 ## Network Diagram
 
