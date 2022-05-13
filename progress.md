@@ -93,13 +93,13 @@ GROUP
 - Deployed the JuiceShop Web Application ( 3 replicas) with LoadBalancer service.
 
 @nuri4444
+- Worked on the deployment of the JuiceShop
 
 ## 13/05/2022
 
-@ciastron
-
-@RuffyJK
-
-@nuri444
 
 
+
+@nuri4444
+- Finally made the JuiceShop work with EKS
+- Research about the network diagram
