@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: juiceshop
+  namespace: vulnerable-ns
+  labels:
+    app: juiceshop-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: juiceshop-app
+  template:
+    metadata:
+      labels:
+        app: juiceshop-app
+    spec:
+      containers:
+      - name: juiceshop
+        image: bkimminich/juice-shop
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vampi
+  namespace: vulnerable-ns
+  labels:
+    app: vampi-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: vampi-app
+  template:
+    metadata:
+      labels:
+        app: vampi-app
+    spec:
+      containers:
+      - name: vampi
+        image: mhosencloudyrion/vampi-api 
+
