@@ -101,7 +101,7 @@ GROUP
 
 @RuffyJK
 - Continued the course of Terraform Essential on Cloudguru.
-- Redployed the Cluster and JuiceShop Application and Services
+- Redeployed the Cluster and JuiceShop Application and Services
 - Installed and used Cloudmapper for Network Diagram
 - Deploying the vulnerable API Vampi on my Kubernetes.
 
