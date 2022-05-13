@@ -98,6 +98,8 @@ GROUP
 ## 13/05/2022
 
 @ciastron
+- See README
+- Deploy the two applications (demo)
 
 @RuffyJK
 - Continued the course of Terraform Essential on Cloudguru.
