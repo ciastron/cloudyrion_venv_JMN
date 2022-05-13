@@ -14,8 +14,22 @@ Authors:
 - Nuri Yilmaz.
 
 ## Installation
+
+## Set up of an EKS Cluster on AWS
+In this section, we describe how to create an EKS cluster on AWS. The aim of this task is to deploy two EKS Deployments. Each of them contains 3 replicas of vulnerable docker applications, in particular, Juice-Shop and VampI API.
+
+To install and deploy the cluster, we followed these steps:
+
+- Log in to an EC2 instance and install `aws` (v2), `eksctl` and `kubectl`.
+- Create the cluster with `eksctl create cluster`. This operation might take up to 20 minutes.
+- Update the *kubeconfig* file with the command `aws eks update-kubeconfig --name devMarco --region us-east-1`.
+- Create a namespace to put all the future services and deployments: `kubectl create namespace vulnerable-ns`.
+- Create the services and deployments objects using `kubectl`. In particular, the create the service we have used the (svc.yml)[README.md] file.
+
 ## Network Diagram
+
 ## Learning Outcomes
+
 ## Resources
 - [Juice Shop](https://github.com/juice-shop/juice-shop): vulnerable WebApp.
 - [VAMPI](https://github.com/erev0s/VAmPI): vulberable APIs.
