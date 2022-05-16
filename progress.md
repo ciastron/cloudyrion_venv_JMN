@@ -2,6 +2,9 @@
 
 Authors: Marco, Jonas, Nuri
 
+## Table of Contents
+[09/05/2022](09/05/2022)
+
 ## 09/05/2022
 
 We progressed on the following items:
