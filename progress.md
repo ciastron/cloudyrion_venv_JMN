@@ -109,4 +109,12 @@ GROUP
 
 @nuri444
 
+## 16/05/2022
+GROUP
+- Team meeting to discuss the next steps and define the workflow with the steps *backlog - on going - done*
 
+@ciastron
+
+@RuffyJK
+
+@nuri4444
