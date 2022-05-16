@@ -112,12 +112,14 @@ GROUP
 ## 16/05/2022
 GROUP
 - Team meeting to discuss the next steps and define the workflow with the steps *backlog - on going - done*
-   - Studying network diagram,
+   - Studying network diagram.
    - Automation tool for the deployment (e.g., Terraform, GitOps).
    - Start pentest the application.
    - Run CloudMapper and Scoutsuite on the cluster (audit).
 
 @ciastron
+- Work on the definition of the next tasks.
+- Start to pentest VampI API and create the github folder for the final report of VampI pentest.
 
 @RuffyJK
 
