@@ -122,6 +122,8 @@ GROUP
 - Start to pentest VampI API and create the github folder for the final report of VampI pentest.
 
 @RuffyJK
+- Started working on a Terraform script to deploy EKS and Juice Web Shop, Vampi API.
+- Deployed Vampi API on localhost for further pentesting.
 
 @nuri4444
 
