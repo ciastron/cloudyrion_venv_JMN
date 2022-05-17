@@ -135,3 +135,15 @@ Question to ask:
 - How the network diagram should look like? (ask a sample of network diagram to Ulf or Raad) 
 - Show Cloud mapper diagram (local machine) and AWS one ([example](https://tf-eks-workshop.workshop.aws/500_eks-terraform-workshop/510_scenario/intro.html)). Which one?
 - How to represent namespace and pods in the previous diagram? Aren't they in a different dimension? Should we configure by ourselves the IP net address?
+
+## 17/05/2022
+
+@ciastron
+- Lost against RuffyJK 5 - 0 on 16/05/2022 in table tennis.
+
+@RuffyJK
+- Continued to work on the terraform script. Installed Visual Studio Code and installed Terraform Extension.
+- Installed TFsec extension. TFsec uses static analysis of your terraform code to spot potential misconfigurations.
+- TFsec is easy to integrate into a CI pipeline and has a growing library of checks against all of the major cloud providers and platforms like Kubernetes.
+
+@nuri4444
