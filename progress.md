@@ -126,6 +126,10 @@ GROUP
 - Deployed Vampi API on localhost for further pentesting.
 
 @nuri4444
+- Research on CSRF
+- Doing Labs on Portswigger
+- Vampi API testing
+
 
 Question to ask:
 - How the network diagram should look like? (ask Ulf if available - or Raad) 
