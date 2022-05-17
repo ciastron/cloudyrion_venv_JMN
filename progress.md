@@ -132,6 +132,6 @@ GROUP
 
 
 Question to ask:
-- How the network diagram should look like? (ask Ulf if available - or Raad) 
-- Show Cloud mapper diagram and AWS one ([example](https://tf-eks-workshop.workshop.aws/500_eks-terraform-workshop/510_scenario/intro.html)). Which one?
+- How the network diagram should look like? (ask a sample of network diagram to Ulf or Raad) 
+- Show Cloud mapper diagram (local machine) and AWS one ([example](https://tf-eks-workshop.workshop.aws/500_eks-terraform-workshop/510_scenario/intro.html)). Which one?
 - How to represent namespace and pods in the previous diagram? Aren't they in a different dimension? Should we configure by ourselves the IP net address?
