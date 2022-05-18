@@ -140,10 +140,31 @@ Question to ask:
 
 @ciastron
 - Lost against RuffyJK 5 - 0 on 16/05/2022 in table tennis.
+- See report of 18/05/2022
 
 @RuffyJK
 - Continued to work on the terraform script. Installed Visual Studio Code and installed Terraform Extension.
 - Installed TFsec extension. TFsec uses static analysis of your terraform code to spot potential misconfigurations.
 - TFsec is easy to integrate into a CI pipeline and has a growing library of checks against all of the major cloud providers and platforms like Kubernetes.
+
+@nuri4444
+
+## 18/05/2022
+@ciastron
+- Pentest VampI and create the tool to brute force the JWT token. See [JWT Brute Force](https://github.com/ciastron/JWT_brute_force)
+- Start createing the network diagrams for the EKS infrastructure. See [README](README.me)
+- Checked how PODS communicate between each other. To do that in the deployments YAML file you need to add a "sidecar" container
+```
+containers:
+- name: vampi
+  image: mhosencloudyrion/vampi-api
+- name: sidecar
+  image: curlimages/curl
+  command: ["/bin/sh"]
+  args: ["-c", "echo Hello from the sidecar container; sleep 300"] 
+```
+ Then, to log into a POD, run the command `kubectl exec -it vampi-7b89896c8f-sn8gm -c sidecar -n vulnerable-ns -- /bin/sh`
+ Try to ping other pods using their (private) IP address.
+@RuffyJK
 
 @nuri4444
