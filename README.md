@@ -29,7 +29,7 @@ To install and deploy the cluster, we followed these steps:
   - `kubectl create -f deployments.yml` to create the deployments.
 
 ## Network Diagram
-
+![net diagram](img/NetDiagram1.png)
 ## Learning Outcomes
 
 ## Resources
