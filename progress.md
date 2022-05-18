@@ -152,7 +152,7 @@ Question to ask:
 ## 18/05/2022
 @ciastron
 - Pentest VampI and create the tool to brute force the JWT token. See [JWT Brute Force](https://github.com/ciastron/JWT_brute_force)
-- Start createing the network diagrams for the EKS infrastructure. See [README](README.me)
+- Start createing the network diagrams for the EKS infrastructure. See [README](README.md#network-diagram)
 - Checked how PODS communicate between each other. To do that in the deployments YAML file you need to add a "sidecar" container
 ```
 containers:
