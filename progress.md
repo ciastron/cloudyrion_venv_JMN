@@ -165,6 +165,11 @@ containers:
 ```
  Then, to log into a POD, run the command `kubectl exec -it vampi-7b89896c8f-sn8gm -c sidecar -n vulnerable-ns -- /bin/sh`
  Try to ping other pods using their (private) IP address.
+ 
 @RuffyJK
+
+- Used TFsec to find vulnerabilites in our terraform code.
+- Cleaned up the terraform code.
+- Integrated Helm into the code to deploy Juice Shop.
 
 @nuri4444
