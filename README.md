@@ -28,8 +28,21 @@ To install and deploy the cluster, we followed these steps:
   - `kubectl create -f svc.yml` to create the services.
   - `kubectl create -f deployments.yml` to create the deployments.
 
-## Network Diagram
-![net diagram](img/NetDiagram1.png)
+## Network Diagrams
+This section describes the Network Diagrams (NDs) that we designed for this project.
+
+We sketched two NDs: (1) from a physical infrastructure perspective, and (2) from a K8s perspective.
+
+The first ND describes how the EKS cluster has been deployed. We have 1 control plane that stays in its VPC. It is accessible only from a subset of IP addresses through SSH. Then, there are 3 (up to 4) worker nodes that reside in another VPC. These nodes can talk only with the control plane and they cannot be accessed from the outside. 
+
+![netDiagram1](img/NetDiagram1.png)
+
+The second ND represents the EKS infrastructure. For this case scenario, we have deployed VampI and Juice-SHop applications as containers inside PODS. The EKS network is composed by:
+- 2 deployments that contain 3 replicas of the previously mentioned applications. The PODS can not communicate with each other because we enforced a "deny-by-default" policy among them. It is important to adopt a network policy among the pods because it reduces the attack surface. In fact, without a network policy, the adversaries that gain a small foothold inside the perimeter of the cluster can start to move laterally and they can start searching for more valuable assets.
+- 2 services that allow an external user to access the applications.
+
+![netDiagram2](img/netDiagram2.png)
+
 ## Learning Outcomes
 
 ## Resources
