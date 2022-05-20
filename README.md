@@ -38,6 +38,7 @@ The first ND describes how the EKS cluster has been deployed. We have 1 control
 ![netDiagram1](img/NetDiagram1.png)
 
 The second ND represents the EKS infrastructure. For this case scenario, we have deployed VampI and Juice-SHop applications as containers inside PODS. The EKS network is composed by:
+- 1 Namespace where we deploy all the infrastructure. 
 - 2 deployments that contain 3 replicas of the previously mentioned applications. The PODS can not communicate with each other because we enforced a "deny-by-default" policy among them. It is important to adopt a network policy among the pods because it reduces the attack surface. In fact, without a network policy, the adversaries that gain a small foothold inside the perimeter of the cluster can start to move laterally and they can start searching for more valuable assets.
 - 2 services that allow an external user to access the applications.
 
