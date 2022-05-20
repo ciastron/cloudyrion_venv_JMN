@@ -50,6 +50,7 @@ The second ND represents the EKS infrastructure. For this case scenario, we hav
 - [Juice Shop](https://github.com/juice-shop/juice-shop): vulnerable WebApp.
 - [VAMPI](https://github.com/erev0s/VAmPI): vulberable APIs.
 - [VAMPI Solution](https://erev0s.com/blog/vampi-vulnerable-api-security-testing/)
+- [JWT Brute Force](https://github.com/ciastron/JWT_brute_force/): personal project showing how to brute force a JWT token.
 - [TerraGoat](https://github.com/bridgecrewio/terragoat): vulnerable Terraform Infrastructure.
 - [CloudMapper](https://github.com/duo-labs/cloudmapper): cloud tool to map AWS/Azure/GCP cloud infrastructure. This tool is useful to extract a network diagram of the entire cloud system.
 - [ScoutSuite](https://github.com/nccgroup/ScoutSuite): cloud tool to create a security report about the AWS miscofnigurations (e.g., weak password policy).
