@@ -32,5 +32,5 @@ terraform init -backend-config="bucket=$TERRAGOAT_STATE_BUCKET" -backend-config=
 
 Before this is done however, you need to create AWS bucket in the environment so Terraform can store progress and info what has been deployed so later it can delete all the resources. I am not sure which environment you guys are using (whether it is Cloudyrion case study or different one). If its different one, below link gives you a small guide how to create a correct bucket. On the other hand if you are using Cloudyrion one, there is a bucket already created, just make sure to copy its name during the export command. Run all four commands and then you can proceed to create the script. **Ensure your AWS CLI is configured! You can use the command ```aws s3 ls``` to verify everything is working correctly. This will give you list of buckets present in the system**
 
-More on the scripts present here;
+More on the scripts present here,
 - [TerraGoat](https://github.com/bridgecrewio/terragoat): vulnerable Terraform Infrastructure.
