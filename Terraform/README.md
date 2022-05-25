@@ -10,6 +10,7 @@ This section explains how to install and deploy the EKS cluster using Terraform.
 This section explains how to install and deploy the EKS cluster using Terraform.
 
 After installing the previous programs, you can initialize your EKS environment running the following command:
+
 0. `cd script`. In general, you neet to move in the folder where there are all the `tf` scripts. 
 1. `terraform init`. This command allows you to initialize the terraform environment. You need to run this command only once.
 2. [OPT.] `terraform plan`. This command allows you to have an idea about which resources will be created abd initialized by Terraform. This command is also used as a sanity check to see if your `tf` scripts have any errors.
